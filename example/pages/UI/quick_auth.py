@@ -65,7 +65,7 @@ class QuickAuth:
         self.button_continue_not_active.should(be.visible)
 
     @allure.step("Проверка окна быстрой авторизации")
-    def block_quick_auth(self):
+    def element_quick_auth(self):
         self.block_quick_auth_should_be_visible()
         self.qr_code_should_be_display()
         self.not_active_button_continue_without_phone_number()
