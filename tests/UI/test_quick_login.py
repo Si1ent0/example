@@ -17,7 +17,7 @@ def test_quick_auth_login(browser_config):
     app.main_page.open_main_page()
     app.quick_auth.close_wrapper()
     app.quick_auth.quick_log_button_should_be_click()
-    app.quick_auth.block_quick_auth_button_login()
+    app.quick_auth.block_quick_auth()
 
 
 @allure.epic("Main page")
@@ -32,7 +32,7 @@ def test_quick_auth_reg(browser_config):
     app.main_page.open_main_page()
     app.quick_auth.close_wrapper()
     app.quick_auth.quick_reg_button_should_be_click()
-    app.quick_auth.block_quick_auth_button_login()
+    app.quick_auth.block_quick_auth()
 
 
 @allure.epic("Main page")
@@ -48,4 +48,4 @@ def test_quick_auth_button(browser_config):
     app.quick_auth.close_wrapper()
     app.quick_auth.quick_reg_button_should_be_click()
     app.quick_auth.phone_number_input()
-    app.quick_auth.button_continue_active()
+    app.quick_auth.active_button_continue_with_phone_number()

@@ -56,11 +56,16 @@ class QuickAuth:
     def phone_number_input(self):
         self.phone_input_quick_auth.type(' 999 999-99-99')
 
-    @allure.step("Кнопка Продолжить не активна")
-    def  active_button_continue_without_phone_number(self):
+    @allure.step("Кнопка Продолжить активна")
+    def  active_button_continue_with_phone_number(self):
         self.button_continue_active.should(be.visible)
 
+    @allure.step("Кнопка Продолжить не активна")
+    def  not_active_button_continue_without_phone_number(self):
+        self.button_continue_not_active.should(be.visible)
+
     @allure.step("Проверка окна быстрой авторизации")
-    def block_quick_auth_button_login(self):
+    def block_quick_auth(self):
         self.block_quick_auth_should_be_visible()
         self.qr_code_should_be_display()
+        self.not_active_button_continue_without_phone_number()
