@@ -2,7 +2,6 @@ import allure
 import requests
 
 from example.utils import allure_attach
-from pydantic import ValidationError
 
 
 def get_main_page(api_url):

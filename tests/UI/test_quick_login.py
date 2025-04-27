@@ -14,7 +14,6 @@ from example.application import app
 @allure.link("https://vkvideo.ru/", name="main page")
 @allure.step("Проверка окна быстрой авторизации через логин")
 def test_quick_auth_login(browser_config):
-    # Открытие страницы Main
     app.main_page.open_main_page()
     app.quick_auth.close_wrapper()
     app.quick_auth.quick_log_button_should_be_click()
@@ -30,7 +29,6 @@ def test_quick_auth_login(browser_config):
 @allure.link("https://vkvideo.ru/", name="main page")
 @allure.step("Проверка окна быстрой авторизации через регистрацию")
 def test_quick_auth_reg(browser_config):
-    # Открытие страницы Main
     app.main_page.open_main_page()
     app.quick_auth.close_wrapper()
     app.quick_auth.quick_reg_button_should_be_click()
@@ -46,7 +44,6 @@ def test_quick_auth_reg(browser_config):
 @allure.link("https://vkvideo.ru/", name="main page")
 @allure.step("Проверка активности кнопки Продолжить")
 def test_quick_auth_button(browser_config):
-    # Открытие страницы Main
     app.main_page.open_main_page()
     app.quick_auth.close_wrapper()
     app.quick_auth.quick_reg_button_should_be_click()
