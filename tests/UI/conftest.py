@@ -1,3 +1,4 @@
+
 import pytest
 import os
 
@@ -50,11 +51,11 @@ def browser_config(request):
     browser.config.window_height = 1080
     browser.config.window_width = 1920
     browser.config.base_url = "https://vkvideo.ru/"
-    # yield browser
+    yield browser
 
     attach.add_screenshot(browser)
     attach.add_logs(browser)
     attach.add_html(browser)
     attach.add_video(browser)
 
-    # browser.quit()
+    browser.quit()
