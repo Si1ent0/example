@@ -12,6 +12,8 @@
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=Jenkins&logoColor=white"/>&nbsp;&nbsp;
 <img alt="Static Badge" src="https://img.shields.io/badge/Allure-green?style=for-the-badge">&nbsp;&nbsp;
+<img src="https://avatars.githubusercontent.com/u/5879127?v=4" height='50'  width='50'/>&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://molecula.gallerycdn.vsassets.io/extensions/molecula/allure-test-reports/1.1/1474455326332/Microsoft.VisualStudio.Services.Icons.Default" height='40'  width='40'/>
 
 ### Что проверяем
 * Открытие страницы https://vkvideo.ru/
