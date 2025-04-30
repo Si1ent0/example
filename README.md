@@ -17,7 +17,7 @@
 <img alt="Static Badge" src="https://img.shields.io/badge/Allure-green?style=for-the-badge">&nbsp;&nbsp;
 
 ### Что проверяем
-* Открытие страницы https://vkvideo.ru/
+* Открытие страницы
 * Наличие элементов на странице
 * Вызов окна регистрации через
     *   Login
