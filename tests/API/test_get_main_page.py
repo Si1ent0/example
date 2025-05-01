@@ -11,5 +11,5 @@ from example.pages.API.get_main_page import get_main_page
 @allure.label('owner', 'rs')
 @allure.tag('regress', 'smoke', 'API')
 @allure.severity('Critical')
-def test_get_user_by_username(api_url):
+def test_get_main_page(api_url):
     get_main_page(api_url)
