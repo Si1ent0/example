@@ -1,4 +1,4 @@
-# Проект UI+API автотестов
+# Проект UI+API автотестов Python
 
 <h2 align="center"> Automation </h2>
 <p align="center">
