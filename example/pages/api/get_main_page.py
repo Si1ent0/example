@@ -1,7 +1,7 @@
 import allure
 import requests
 
-from utils import allure_attach
+from example.utils import allure_attach
 
 
 def get_main_page(api_url):

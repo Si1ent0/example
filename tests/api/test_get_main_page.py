@@ -1,6 +1,6 @@
 import allure
 
-from api.get_main_page import get_main_page, check_response_code
+from example.pages.api import get_main_page, check_response_code
 
 
 @allure.epic('api')
