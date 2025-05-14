@@ -31,9 +31,32 @@
 &nbsp;
   ---
 
+### Локально
+```
+pytest .
+pytest tests/ui/ --browser_version=128.0
+pytest tests/api/
+```
+
+### Удаленно
+> [!NOTE]
+> Ключ выбора версии `--browser-version` не обязателен
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+UI
+pytest tests/ui/ --browser_version=128.0
+API
+pytest tests/api/
+```
+
+&nbsp;
+  ---
+
 ### <img src="https://www.svgrepo.com/show/353929/jenkins.svg" height='60'  width='60'/> Запуск проекта в Jenkins
 
-##### При нажатии на "Beald with parameters" откроется окно с вариантами запуска автотестов.
+##### При нажатии на "Build  with parameters" откроется окно с вариантами запуска автотестов.
 <img width="1488" alt="Снимок экрана 2025-04-30 в 12 43 52" src="https://github.com/user-attachments/assets/b3f9b5e3-f96d-40f5-8cfa-c65cb8a124f7" />
 
 #### Варианты запуска:
