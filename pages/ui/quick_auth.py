@@ -26,17 +26,17 @@ class QuickAuth:
     def close_wrapper(self):
         self.wrapper_close.click()
 
-    @allure.step("Кликабельна кнопка логина быстрого входа")
+    @allure.step("Кликабельна кнопка 'логина быстрого входа'")
     def quick_log_button_should_be_click(self):
         self.quick_log_button.should(be.clickable)
         self.quick_log_button.click()
 
-    @allure.step("Кликабельна кнопка регистрации быстрого входа")
+    @allure.step("Кликабельна кнопка 'регистрации быстрого входа'")
     def quick_reg_button_should_be_click(self):
         self.quick_reg_button.should(be.clickable)
         self.quick_reg_button.click()
 
-    @allure.step("Отображается блок быстрой авторизации")
+    @allure.step("Отображается блок 'быстрой авторизации'")
     def block_quick_auth_should_be_visible(self):
         self.block_quick_auth.should(be.visible)
 
@@ -53,19 +53,19 @@ class QuickAuth:
         self.button_continue_not_active.should(have.text('Продолжить'))
 
     @allure.step("Ввод телефона в поле ввода")
-    def phone_number_input(self):
+    def phone_number_input_should_be_active(self):
         self.phone_input_quick_auth.type(' 999 999-99-99')
 
-    @allure.step("Кнопка Продолжить активна")
+    @allure.step("Кнопка 'Продолжить' активна")
     def  active_button_continue_with_phone_number(self):
         self.button_continue_active.should(be.visible)
 
-    @allure.step("Кнопка Продолжить не активна")
+    @allure.step("Кнопка 'Продолжить' не активна")
     def  not_active_button_continue_without_phone_number(self):
         self.button_continue_not_active.should(be.visible)
 
     @allure.step("Проверка окна быстрой авторизации")
-    def element_quick_auth(self):
+    def element_quick_auth_should_be_visible(self):
         self.block_quick_auth_should_be_visible()
         self.qr_code_should_be_display()
         self.not_active_button_continue_without_phone_number()

@@ -75,121 +75,121 @@ class MainPage:
 
 
 
-    @allure.step("Открываем главную страницу")
+    @allure.step("Открываем 'главную страницу'")
     def open_main_page(self):
         browser.open('/')
         self.test_robot.click()
 
     # top bar
-    @allure.step("Отображается бургер меню")
+    @allure.step("Отображается 'бургер меню'")
     def burger_menu_should_be_display(self):
         self.burger_menu.should(be.visible)
 
-    @allure.step("Отображается лого")
+    @allure.step("Отображается 'лого'")
     def logo_should_should_be_display(self):
         self.logo.should(be.visible)
 
-    @allure.step("Отображается строка поиска")
+    @allure.step("Отображается 'строка поиска'")
     def search_input_should_be_display(self):
         self.search_input.should(be.visible)
 
-    @allure.step("Отображается кнопка регистрации")
+    @allure.step("Отображается кнопка 'регистрации'")
     def reg_button_should_be_display(self):
         self.button_registration.should(be.visible)
 
     # left bar
-    @allure.step("Отображается левый bar")
+    @allure.step("Отображается 'левый bar'")
     def left_bar_should_be_display(self):
         self.left_bar.should(be.visible)
 
-    @allure.step("Отображается live button")
+    @allure.step("Отображается кнопка 'live'")
     def live_button_should_be_display(self):
         self.live.should(be.visible)
 
-    @allure.step("Отображается main button")
+    @allure.step("Отображается кнопка 'main'")
     def main_button_should_be_display(self):
         self.main_button.should(be.visible)
 
-    @allure.step("Отображается trends button")
+    @allure.step("Отображается кнопка 'trends'")
     def trends_button_should_be_display(self):
         self.trends.should(be.visible)
 
-    @allure.step("Отображается clips button")
+    @allure.step("Отображается кнопка 'clips'")
     def clips_button_should_be_display(self):
         self.clips.should(be.visible)
 
-    @allure.step("Отображается history button")
+    @allure.step("Отображается кнопка 'history'")
     def history_button_should_be_display(self):
         self.history.should(be.visible)
 
-    @allure.step("Отображается watch latter button")
+    @allure.step("Отображается кнопка 'watch latter'")
     def watch_latter_button_should_be_display(self):
         self.watch_later.should(be.visible)
 
-    @allure.step("Отображается liked video button")
+    @allure.step("Отображается кнопка 'liked video'")
     def liked_video_button_should_be_display(self):
         self.liked_video.should(be.visible)
 
-    @allure.step("Отображается victory day button")
+    @allure.step("Отображается кнопка 'victory day'")
     def victory_day_button_should_be_display(self):
         self.victory_day.should(be.visible)
 
-    @allure.step("Отображается for kids button")
+    @allure.step("Отображается кнопка 'for kids'")
     def for_kids_button_should_be_display(self):
         self.for_kids.should(be.visible)
 
-    @allure.step("Отображается television button")
+    @allure.step("Отображается кнопка 'television'")
     def television_button_should_be_display(self):
         self.television.should(be.visible)
 
-    @allure.step("Отображается movie button")
+    @allure.step("Отображается кнопка 'movie'")
     def movie_button_should_be_display(self):
         self.movie.should(be.visible)
 
-    @allure.step("Отображается tv show button")
+    @allure.step("Отображается кнопка 'tv show'")
     def tvshow_button_should_be_display(self):
         self.tv_show.should(be.visible)
 
-    @allure.step("Отображается toggle button")
+    @allure.step("Отображается кнопка 'toggle'")
     def toggle_button_should_be_display(self):
         self.toggle.should(be.visible)
 
     # быстрый вход в систему
-    @allure.step("Отображается title быстрого входа")
+    @allure.step("Отображается title 'быстрого входа'")
     def quick_log_title_should_be_display(self):
         self.title_quick_log.should(be.visible)
 
-    @allure.step("Отображается описание быстрого входа")
+    @allure.step("Отображается 'описание быстрого входа'")
     def quick_log_text_should_be_display(self):
         self.text_quick_log.should(be.visible)
 
-    @allure.step("Отображается кнопка логина быстрого входа")
+    @allure.step("Отображается кнопка 'логина быстрого входа'")
     def quick_log_button_should_be_display(self):
         self.quick_log_button.should(be.visible)
 
-    @allure.step("Отображается кнопка регистрации быстрого входа")
+    @allure.step("Отображается кнопка 'регистрации быстрого входа'")
     def quick_reg_button_should_be_display(self):
         self.quick_reg_button.should(be.visible)
 
 
     # tab slider
-    @allure.step("Отображается кнопка all tab slider")
+    @allure.step("Отображается кнопка 'all tab slider'")
     def tab_all_should_be_display(self):
         self.all.should(be.visible)
 
-    @allure.step("Отображается кнопка интервью tab slider")
+    @allure.step("Отображается кнопка 'интервью tab slider'")
     def tab_interview_should_be_display(self):
         self.interview.should(be.visible)
 
-    @allure.step("Отображается кнопка politic tab slider")
+    @allure.step("Отображается кнопка 'politic tab slider'")
     def tab_politic_should_be_display(self):
         self.politic.should(be.visible)
 
-    @allure.step("Отображается кнопка music tab slider")
+    @allure.step("Отображается кнопка 'music tab slider'")
     def tab_music_should_be_display(self):
         self.music.should(be.visible)
 
-    @allure.step("Отображается кнопка tourism tab slider")
+    @allure.step("Отображается кнопка 'tourism tab slider'")
     def tab_tourism_should_be_display(self):
         self.tourism.should(be.visible)
 

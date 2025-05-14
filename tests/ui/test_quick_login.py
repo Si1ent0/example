@@ -2,7 +2,7 @@ import allure
 
 from allure_commons.types import Severity
 
-from example.application import app
+from application import app
 
 
 @allure.epic("Main page")
@@ -17,7 +17,7 @@ def test_quick_auth_login(browser_config):
     app.main_page.open_main_page()
     app.quick_auth.close_wrapper()
     app.quick_auth.quick_log_button_should_be_click()
-    app.quick_auth.element_quick_auth()
+    app.quick_auth.element_quick_auth_should_be_visible()
 
 
 @allure.epic("Main page")
@@ -32,7 +32,7 @@ def test_quick_auth_reg(browser_config):
     app.main_page.open_main_page()
     app.quick_auth.close_wrapper()
     app.quick_auth.quick_reg_button_should_be_click()
-    app.quick_auth.element_quick_auth()
+    app.quick_auth.element_quick_auth_should_be_visible()
 
 
 @allure.epic("Main page")
@@ -47,5 +47,5 @@ def test_quick_auth_button(browser_config):
     app.main_page.open_main_page()
     app.quick_auth.close_wrapper()
     app.quick_auth.quick_reg_button_should_be_click()
-    app.quick_auth.phone_number_input()
+    app.quick_auth.phone_number_input_should_be_active()
     app.quick_auth.active_button_continue_with_phone_number()
