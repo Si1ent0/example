@@ -1,6 +1,6 @@
 
-from pages.ui.main_page import MainPage
-from pages import QuickAuth
+from ui.pages.main_page import MainPage
+from ui.pages.quick_auth import QuickAuth
 
 
 class Application:

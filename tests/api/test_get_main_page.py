@@ -1,6 +1,6 @@
 import allure
 
-from api import get_main_page
+from api.get_main_page import get_main_page
 from api.get_main_page import check_response_code
 
 

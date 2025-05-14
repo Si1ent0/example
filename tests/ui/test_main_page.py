@@ -1,7 +1,7 @@
 import allure
 
 from allure_commons.types import Severity
-from application import app
+from application.application import app
 
 
 @allure.epic("Main page")
