@@ -1,7 +1,7 @@
-pytest==8.3.5
+pytest
 selene==2.0.0rc9
-allure-pytest==2.14.0
-selenium==4.31.0
-requests==2.32.3
-pydantic==2.11.3
-dotenv==0.9.9
+allure-pytest
+selenium
+requests
+pydantic
+dotenv
