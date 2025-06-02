@@ -96,6 +96,15 @@ pytest tests/api/
 ##### Видео прохождение теста
 ![e8c2e75af098fa4ea979f2ce9d76d36c](https://github.com/user-attachments/assets/57baa622-411b-438e-9f1f-a5b5bdd98c90)
 
+&nbsp;
+  ---
+  
+### <img src="https://molecula.gallerycdn.vsassets.io/extensions/molecula/allure-test-reports/1.1/1474455326332/Microsoft.VisualStudio.Services.Icons.Default" height='40'  width='40'/> Интеграция с AllureTestOps
+#### После запуска автотестов в jenkins, происходит передача запуска в раздел Launches AllureTestOps
+<img width="1465" alt="Снимок экрана 2025-06-02 в 11 35 57" src="https://github.com/user-attachments/assets/00fad88d-58f9-40c3-8e3b-7fc3e1cf6d28" />
+
+#### Автотесты передаются в систему AllureTestOps и имеют такую же иерархию как в основной папке tests репозитория
+<img width="791" alt="Снимок экрана 2025-06-02 в 11 26 48" src="https://github.com/user-attachments/assets/ce191c06-9cb7-489a-a96d-c121a966ee04" />
 
 &nbsp;
   ---
