@@ -113,3 +113,4 @@ pytest tests/api/
 ##### После прохождения тестов, в Telegram bot приходит сообщение с графиком и небольшой информацией о тестах.
 <img width="880" alt="Снимок экрана 2025-04-30 в 12 35 49" src="https://github.com/user-attachments/assets/b01cad29-8233-48a7-a0ea-41fa0accb8c8" />
 
+тест
